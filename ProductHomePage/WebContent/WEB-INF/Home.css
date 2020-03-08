@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+ul li{
+	float:right;
+	
+}
+/*.product{
+	margin-left:30%;
+	margin-top:5%;
+	border-radius:10px;
+border-style: none;
+}*/
+ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	background-color:#1E90FF;
+	text-decoration: none;
+}
+
+li a{
+	display:block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family:calibri;
+	font-size:18px;
+}
+
+.active{
+	float:left;
+	padding-left:45%;
+	text-decoration: none;
+	
+	}
+
+	
+a:hover {
+  text-decoration:none;
+  color:black;
+}  
+
+a:link {
+  text-decoration:none;
+  
+}
+  a:visited {
+  text-decoration:none;
+    color:black;
+
+
+}
+
+a:active {
+  text-decoration:none;
+    color:black;
+
+}
+
+
+	
+.fa-user-circle:hover{
+	text-decoration: none;
+	color:black;
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+.srch{
+	width:500px;
+	height:30px;
+	margin-left:30%;
+	margin-top:5%;
+	border-radius:10px;
+border-style: ridge;
+}
+
+.butn{
+	border-radius:5px;
+	width:100px;
+	height:25px;
+}
+
+.pcontainer
+{
+	
+	display:flex;
+	justify-content:space-around;
+}
+
+
+.pcontainer2
+{
+	
+	display:flex;
+	justify-content:space-around;
+}
+
+
+
+
+
+
+.butn:hover{
+	background-color:#1E90FF;
+	color:white;
+}
+
+body{
+	background-color:white;
+}
+
+ul li a:hover{
+	color:black;
+}
+
+.rightcomp ul li a{
+	font-size:25px;
+}
+
+.active a{
+	font-size:40px;
+}
+
+.prod{
+	width:500px;
+	height:30px;
+}
